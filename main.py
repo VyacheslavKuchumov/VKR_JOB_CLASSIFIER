@@ -110,7 +110,7 @@ print(perm_df)
 
 
 
-perm_data.to_csv('output/processed_perm_krai.csv')
+perm_data.to_csv('output/processed_perm_krai.csv', index=False)
 
 
 
